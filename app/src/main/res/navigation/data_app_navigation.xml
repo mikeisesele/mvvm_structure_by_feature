@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/data_app_navigation"
+    app:startDestination="@id/presentationFragment">
+
+    <fragment
+        android:id="@+id/presentationFragment"
+        android:name="com.decagon.n26_p6.features.presentation.viewcontroller.PresentationFragment"
+        android:label="fragment_presentation"
+        tools:layout="@layout/fragment_presentation" />
+</navigation>
