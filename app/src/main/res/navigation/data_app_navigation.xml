@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/presentationFragment"
-        android:name="com.decagon.n26_p6.features.presentation.viewcontroller.PresentationFragment"
+        android:name="com.decagon.n26_p6.features.getData.presentation.viewcontroller.PresentationFragment"
         android:label="fragment_presentation"
         tools:layout="@layout/fragment_presentation" />
 </navigation>
